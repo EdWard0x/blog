@@ -1,0 +1,98 @@
+captcha:
+    height: 80
+    width: 240
+    length: 6
+    max_skew: 0.7
+    dot_count: 80
+email:
+    host: smtp.163.com
+    port: 465
+    from: 15853696101@163.com
+    nickname: Admin
+    secret: XQvPQ32rneDYpLDn
+    is_ssl: true
+es:
+    url: http://127.0.0.1:9200
+    username: ""
+    password: ""
+    is_console_print: true
+gaode:
+    enable: false
+    key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+jwt:
+    access_token_secret: pNCWCJQ_-13zBCXpLKCN4ljb5zl6SJUZUdVwjBdtJww=
+    refresh_token_secret: 3SvXWD1dvrRvUuzHRmlyt8VtTH5tRxM67b144F09uZ4=
+    access_token_expiry_time: 2h
+    refresh_token_expiry_time: 7d
+    issuer: go_blog
+mysql:
+    host: 127.0.0.1
+    port: 3306
+    config: charset=utf8mb4&parseTime=True&loc=Local
+    db_name: blog_db
+    username: root
+    password: 0519..
+    max_idle_conns: 10
+    max_open_conns: 100
+    log_mode: info
+cloudflare:
+    bucketName: "blogtest"
+    accountId: "5fc9dc2aa7b67503c60fb76703996fa7"
+    accessKeyId: "1befaad0395755d5c763a28e681fca43"
+    accessKeySecret: "64ad9bac2f4dec158323a823156da5b150c553d917376832d845cda0e47b03f3"
+qiniu:
+    zone: z0
+    bucket: xxx
+    img_path: https://xxx.xxx/
+    access_key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    secret_key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    use_https: true
+    use_cdn_domains: true
+qq:
+    enable: false
+    app_id: "000000000"
+    app_key: xxxxxxxxxxxxxxxx
+    redirect_uri: http://xxx.xxx/xxx
+redis:
+    address: 127.0.0.1:6379
+    password: ""
+    db: 0
+system:
+    host: 0.0.0.0
+    port: 8080
+    env: release
+    router_prefix: api
+    use_multipoint: true
+    sessions_secret: 00LVFqDHW9-Zr3F3lhSqgCY9wZ5tY2r_Y_yN2F-i4wY=
+#    oss_type: local
+    oss_type: CloudFlare
+upload:
+    size: 20
+    path: uploads
+website:
+    logo: ""
+    full_logo: ""
+    title: NoneBlog
+    slogan: 无贡献者
+    slogan_en: NoneContributors
+    description: 个人测试
+    version: 1.0.0
+    created_at: "2025-6-15"
+    icp_filing: icp备案号
+    public_security_filing: 公安备案号
+    bilibili_url: https://space.bilibili.com/xxx
+    gitee_url: https://gitee.com/xxx
+    github_url: https://github.com/EdWard0x
+    name: avein
+    job: 无业游民
+    address: 保密
+    email: avein521@gmail.com
+    qq_image: ""
+    wechat_image: ""
+zap:
+    level: info
+    filename: log/go_blog.log
+    max_size: 200
+    max_backups: 30
+    max_age: 5
+    is_console_print: true
