@@ -8,7 +8,7 @@ email:
     host: smtp.163.com
     port: 465
     from: xxxxxxxxxxxxxxx@163.com
-    nickname: Admin
+    nickname: NoneBlog
     secret: xxxxxxxxxxxxxxx
     is_ssl: true
 es:
@@ -63,7 +63,7 @@ system:
     env: release
     router_prefix: api
     use_multipoint: true
-    sessions_secret: 00LVFqDHW9-Zr3F3lhSqgCY9wZ5tY2r_Y_yN2F-i4wY=
+    sessions_secret: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 #    oss_type: local
     oss_type: CloudFlare
 upload:
