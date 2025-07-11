@@ -7,9 +7,9 @@ captcha:
 email:
     host: smtp.163.com
     port: 465
-    from: 15853696101@163.com
+    from: xxxxxxxxxxxxxxx@163.com
     nickname: Admin
-    secret: XQvPQ32rneDYpLDn
+    secret: xxxxxxxxxxxxxxx
     is_ssl: true
 es:
     url: http://127.0.0.1:9200
@@ -20,8 +20,8 @@ gaode:
     enable: false
     key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 jwt:
-    access_token_secret: pNCWCJQ_-13zBCXpLKCN4ljb5zl6SJUZUdVwjBdtJww=
-    refresh_token_secret: 3SvXWD1dvrRvUuzHRmlyt8VtTH5tRxM67b144F09uZ4=
+    access_token_secret: xxxxxxxxxxxxxxx
+    refresh_token_secret: xxxxxxxxxxxxxxx
     access_token_expiry_time: 2h
     refresh_token_expiry_time: 7d
     issuer: go_blog
@@ -31,15 +31,15 @@ mysql:
     config: charset=utf8mb4&parseTime=True&loc=Local
     db_name: blog_db
     username: root
-    password: 0519..
+    password: xxxxxxxxxxxxxxx
     max_idle_conns: 10
     max_open_conns: 100
     log_mode: info
 cloudflare:
     bucketName: "blogtest"
-    accountId: "5fc9dc2aa7b67503c60fb76703996fa7"
-    accessKeyId: "1befaad0395755d5c763a28e681fca43"
-    accessKeySecret: "64ad9bac2f4dec158323a823156da5b150c553d917376832d845cda0e47b03f3"
+    accountId: "xxxxxxxxxxxxxxx"
+    accessKeyId: "xxxxxxxxxxxxxxx"
+    accessKeySecret: "xxxxxxxxxxxxxxx"
 qiniu:
     zone: z0
     bucket: xxx
